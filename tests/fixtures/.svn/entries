@@ -1,0 +1,57 @@
+8
+
+dir
+185
+http://django-pyodbc.googlecode.com/svn/trunk/tests/fixtures
+http://django-pyodbc.googlecode.com/svn
+
+
+
+2009-01-26T00:22:38.498646Z
+142
+cramm0
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d8ed95fc-f742-0410-923b-f1a0a12816d3
+
+__init__.py
+file
+
+
+
+
+2011-04-12T20:48:28.000000Z
+e1c06d85ae7b8b032bef47e42e4c08f9
+2009-01-24T17:44:45.575076Z
+137
+cramm0
+has-props
+
+fixtures
+dir
+
+models.py
+file
+
+
+
+
+2011-04-12T20:48:28.000000Z
+bae276b563e03bd946ac4367dc74c3e9
+2009-01-24T17:44:45.575076Z
+137
+cramm0
+has-props
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/142/trunk/sql_server/extra/management/commands
+END
+ss_loaddata.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/137/trunk/sql_server/extra/management/commands/ss_loaddata.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/137/trunk/sql_server/extra/management/commands/__init__.py
+END

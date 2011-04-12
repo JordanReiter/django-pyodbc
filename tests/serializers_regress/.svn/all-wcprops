@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/168/trunk/tests/serializers_regress
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/137/trunk/tests/serializers_regress/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/137/trunk/tests/serializers_regress/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/168/trunk/tests/serializers_regress/models.py
+END

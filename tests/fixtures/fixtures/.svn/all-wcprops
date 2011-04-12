@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/142/trunk/tests/fixtures/fixtures
+END
+fixture1.json
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/137/trunk/tests/fixtures/fixtures/fixture1.json
+END
+fixture2.json
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/137/trunk/tests/fixtures/fixtures/fixture2.json
+END
+fixture5.json.gz
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/135/trunk/tests/fixtures/fixtures/fixture5.json.gz
+END
+fixture4.json.zip
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/135/trunk/tests/fixtures/fixtures/fixture4.json.zip
+END
+fixture5.json.zip
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/135/trunk/tests/fixtures/fixtures/fixture5.json.zip
+END
+fixture2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/137/trunk/tests/fixtures/fixtures/fixture2.xml
+END
+fixture3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/137/trunk/tests/fixtures/fixtures/fixture3.xml
+END
+initial_data.json
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/137/trunk/tests/fixtures/fixtures/initial_data.json
+END
+forward_references.json
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/137/trunk/tests/fixtures/fixtures/forward_references.json
+END

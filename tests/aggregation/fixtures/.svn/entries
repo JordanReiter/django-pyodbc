@@ -1,0 +1,41 @@
+8
+
+dir
+185
+http://django-pyodbc.googlecode.com/svn/trunk/tests/aggregation/fixtures
+http://django-pyodbc.googlecode.com/svn
+
+
+
+2009-03-13T21:42:46.037563Z
+162
+cramm0
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d8ed95fc-f742-0410-923b-f1a0a12816d3
+
+initial_data.json
+file
+
+
+
+
+2011-04-12T20:48:28.000000Z
+9a00179cfe7003dcb80367d296302f9b
+2009-03-13T21:42:46.037563Z
+162
+cramm0
+has-props
+
