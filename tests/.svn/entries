@@ -1,181 +1,0 @@
-8
-
-dir
-185
-http://django-pyodbc.googlecode.com/svn/trunk/tests
-http://django-pyodbc.googlecode.com/svn
-
-
-
-2009-04-21T14:40:37.253763Z
-168
-cramm0
-has-props
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-d8ed95fc-f742-0410-923b-f1a0a12816d3
-
-manage.py
-file
-
-
-
-
-2011-04-12T20:48:28.000000Z
-436d756648d7f458aaa9c72570634e59
-2009-01-24T17:44:45.575076Z
-137
-cramm0
-has-props
-
-freetds.conf
-file
-
-
-
-
-2011-04-12T20:48:28.000000Z
-425a5cd15eb7cbd119bea6e4863d21a3
-2009-01-24T17:44:45.575076Z
-137
-cramm0
-has-props
-
-aggregation_regress
-dir
-
-basic
-dir
-
-update
-dir
-
-issue028
-dir
-
-issue019
-dir
-
-odbcinst.ini
-file
-
-
-
-
-2011-04-12T20:48:28.000000Z
-8ddb5a046582f31b37431dd2c13336f2
-2009-01-24T17:44:45.575076Z
-137
-cramm0
-has-props
-
-issue049
-dir
-
-odbc.ini
-file
-
-
-
-
-2011-04-12T20:48:28.000000Z
-062022fdea5cdc71961f8891ad0c599d
-2009-01-24T17:44:45.575076Z
-137
-cramm0
-has-props
-
-serializers_regress
-dir
-
-__init__.py
-file
-
-
-
-
-2011-04-12T20:48:28.000000Z
-68b329da9893e34099c7d8ad5cb9c940
-2009-01-24T17:44:45.575076Z
-137
-cramm0
-has-props
-
-aggregation
-dir
-
-settings.py
-file
-
-
-
-
-2011-04-12T20:48:28.000000Z
-8fe189908b302d4daff77785b9332c86
-2009-04-21T14:38:13.219944Z
-167
-cramm0
-has-props
-
-runtests
-file
-
-
-
-
-2011-04-12T20:48:28.000000Z
-69a8af49dd72c36245af91a1dc944737
-2009-01-24T17:44:45.575076Z
-137
-cramm0
-has-props
-
-order_with_respect_to
-dir
-
-fixtures
-dir
-
-local_settings.py.template
-file
-
-
-
-
-2011-04-12T20:48:28.000000Z
-a60ccc7fd23bed590e8bc681c1b3473d
-2009-01-24T17:44:45.575076Z
-137
-cramm0
-has-props
-
-issue031
-dir
-
-urls.py
-file
-
-
-
-
-2011-04-12T20:48:28.000000Z
-d83357b0589f1fc5aa18379bef807c16
-2009-01-24T17:44:45.575076Z
-137
-cramm0
-has-props
-
-queries
-dir
-
