@@ -37,6 +37,7 @@ elif DjangoVersion[0] == 1:
 else:
     _DJANGO_VERSION = 9
     
+
 from sql_server.pyodbc.operations import DatabaseOperations
 from sql_server.pyodbc.client import DatabaseClient
 from sql_server.pyodbc.creation import DatabaseCreation
@@ -125,17 +126,20 @@ class DatabaseWrapper(BaseDatabaseWrapper):
             self.datefirst = self.settings_dict['OPTIONS'].get('datefirst', 7)
             self.unicode_results = self.settings_dict['OPTIONS'].get('unicode_results', False)
 
+
         if _DJANGO_VERSION >= 13:
             self.features = DatabaseFeatures(self)
         else:
+            raise Exception("The version is %s" % _DJANGO_VERSION)
             self.features = DatabaseFeatures()
-        self.ops = DatabaseOperations()
         self.client = DatabaseClient(self)
         self.creation = DatabaseCreation(self)
         self.introspection = DatabaseIntrospection(self)
         if _DJANGO_VERSION >= 12:
+            self.ops = DatabaseOperations(self)
             self.validation = BaseDatabaseValidation(self)
         else:
+            self.ops = DatabaseOperations()
             self.validation = BaseDatabaseValidation()
 
         self.connection = None

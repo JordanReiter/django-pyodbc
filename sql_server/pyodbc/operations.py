@@ -6,32 +6,18 @@ import decimal
 
 class DatabaseOperations(BaseDatabaseOperations):
     compiler_module = "sql_server.pyodbc.compiler"
-    def __init__(self):
-        super(DatabaseOperations, self).__init__()
-        self._ss_ver = None
+    def __init__(self, connection=None):
+        super(DatabaseOperations, self).__init__(connection)
+        self.connection = connection
+        self._ss_version = None
 
-    def _get_sql_server_ver(self, connection=None):
-        """
-        Returns the version of the SQL Server in use:
-        """
-        if self._ss_ver is not None:
-            return self._ss_ver
-        else:
-            if connection:
-                cur = connection.cursor()
-            else:
-                from django.db import connection
-                cur = connection.cursor()
-            cur.execute("SELECT CAST(SERVERPROPERTY('ProductVersion') as varchar)")
-            ver_code = int(cur.fetchone()[0].split('.')[0])
-            if ver_code >= 10:
-                self._ss_ver = 2008
-            elif ver_code == 9:
-                self._ss_ver = 2005
-            else:
-                self._ss_ver = 2000
-            return self._ss_ver
-    sql_server_ver = property(_get_sql_server_ver)
+    def _get_sql_server_version(self):
+        if self._ss_version is None:
+            from version import get_version
+            cursor = self.connection.cursor()
+            self._ss_version = get_version(cursor)
+        return self._ss_version
+    sql_server_version = property(_get_sql_server_version)
 
     def date_extract_sql(self, lookup_type, field_name):
         """
@@ -63,7 +49,7 @@ class DatabaseOperations(BaseDatabaseOperations):
         resulting string should contain a '%s' placeholder for the column being
         searched against.
         """
-        if self.sql_server_ver < 2005 and db_type and db_type.lower() == 'ntext':
+        if self.sql_server_version < 2005 and db_type and db_type.lower() == 'ntext':
             return 'CAST(%s as nvarchar)'
         return '%s'
 
